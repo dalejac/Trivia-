@@ -1,0 +1,78 @@
+body{
+  color: black;
+  background-color: #FFF363;
+   }
+body{ font-size: 25px;}
+
+
+p span{
+
+   widht:50%;
+  height:10px
+  background: #FFEDAB;
+  margin:20px 30px;
+  padding:30px;
+  border:7px solid #807C8D;
+}
+
+#Pregunta1 {
+  display: none;
+}
+#respuestas1 {
+  display: none;
+}
+#Pregunta2 {
+  display: none;
+}
+#respuestas2 {
+  display: none;
+}
+#Pregunta3 {
+  display: none;
+}
+#respuestas3 {
+  display: none;
+}
+#Pregunta4 {
+  display: none;
+}
+#respuestas4 {
+  display: none;
+}
+#Pregunta5{
+  display: none;
+}
+#respuestas5 {
+  display: none;
+}
+#Pregunta6 {
+  display: none;
+}
+#respuestas6 {
+  display: none;
+}
+#pic1 {
+  display: none;
+}
+#pic2 {
+  display: none;
+}
+#pic3 {
+  display: none;
+}
+#pic4 {
+  display: none;
+}
+#pic5 {
+  display: none;
+}
+#pic6 {
+  display: none;
+}
+
+.right{
+  background:palegreen;
+}
+.wrong{
+  background: red;
+}

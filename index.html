@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Genio Triviador</title>
+  </head>
+  <script>
+  // Preguntar el nombre
+  let nombre= prompt ('¡Indica tu nombre y empieza a jugar!');
+  document.write ('<h1>¡Bienvenido a Genio Triviador '+ nombre + '!</h1>')
+
+  </script>
+  <body>
+
+  <p> <span>
+    Esta es una trivia donde te retamos en tus conocimientos sobre Cultura General
+    </span></p>
+
+  <div>
+  <p><em>¡Buena suerte!<em></p>
+  </div>
+
+  <button type="button" onclick="mostrarPeliculas();" style="border-radius:10px">Pelicula</button>
+    <button type="button" onclick="mostrarArte();" style="border-radius:10px">Arte</button>
+
+<p>
+  <figure>
+  <img id='pic1' src="https://static.wixstatic.com/media/ef2a5a_75bc40b7a82c4e57ab6a4b1282edb0d3~mv2.jpg/v1/crop/x_0,y_2,w_580,h_856/fill/w_510,h_753,al_c,q_85,usm_0.66_1.00_0.01/titanic-poster.webp" alt="Afiche de la película. Jack y Rose personajes principales"
+     width="200"
+     height="200>
+  </figure>
+  <div id="Pregunta1">
+    <div id="Pregunta1">  1. ¿Cuántos Oscars ganó Titanic? <br />
+    </div>
+    <div id="respuestas1">
+      <input type="radio" name="preg1" value="11" id='r11'/> a. 11 <br/>
+      <input type="radio" name="preg1" value="13" id='r13'/> b. 13 <br/>
+      <input type="radio" name="preg1" value="19" id='r19'/> c. 19 <br/>
+    </div>
+  </p>
+  <p>
+  <figure>
+  <img id='pic2' src="https://comoacaba.com/wp-content/uploads/2018/11/yYtlk1E28L1kQG6VcazkHhv29Ur.jpg" alt="Afiche de la película. 2 hombres y una mujer"
+    width="200"
+    height="200>
+    </figure>
+    <div id="Pregunta2">
+        <div id="Pregunta2">  2. ¿Quién hace la banda sonora de Armageddon?<br />
+        </div>
+        <div id="respuestas2">
+          <input type="radio" name="preg2" value="Aerosmith" /> a. Aerosmith <br />
+          <input type="radio" name="preg2" value="Metallica" /> b. Metallica <br />
+          <input type="radio" name="preg2" value="ACDC" /> c. ACDC<br />
+        </div>
+      </p>
+<p>
+  <figure>
+  <img id='pic3'src="https://is4-ssl.mzstatic.com/image/thumb/Video6/v4/dc/d1/11/dcd11110-76a7-dabd-175b-1d402ebbdb7a/mza_5471223389042110290.jpg/268x0w.jpg" alt="Afiche de la película. Un hombre cerca al mar "
+    width="200"
+    height="200>
+    </figure>
+        <div id="Pregunta3">
+        <div id="Pregunta3">  3. ¿En qué fecha se estrenó Naúfrago?<br />
+        </div>
+        <div id="respuestas3">
+          <input type="radio" name="preg3" value="1 de enero de 1999" /> a. 1 de enero de 1999 <br />
+          <input type="radio" name="preg3" value="7 de diciembre de 2000" /> b. 7 de diciembre de 2000 <br />
+          <input type="radio" name="preg3" value="7 de diciembre de 2001" /> c. 7 de diciembre de 2001 <br />
+        </div>
+      </p>
+<figure>
+  <img id='pic4'src="https://midecoracion.com/wp-content/uploads/2019/11/pop-art-marilyn-monroe.jpg" alt="Pop Art. Cara de Marilyn Monroe en diferentes tonos y colores"
+    width="200"
+    height="200>
+    </figure>
+        <div id="Pregunta4">
+          <div id="Pregunta4">  1. ¿Dónde surgio el Pop-Art, movimiento artístico inspirado en la estética de la vida cotidiana? <br />
+          </div>
+          <div id="respuestas4">
+            <input type="radio" name="pre1" value="Reino Unido y Estados Unidos" /> a.Reino Unido y Estados Unidos <br />
+            <input type="radio" name="pre1" value="Japón" /> b. Japón <br />
+            <input type="radio" name="pre1" value="Alemania" /> c. Alemania <br />
+          </div>
+      </p>
+        <p>
+          <figure>
+  <img id='pic5'src="https://static5.museoreinasofia.es/sites/default/files/obras/DE00050.jpg" alt="Guernica. Obra con figuras geométricas de Pablo Picasso"
+    width="200"
+    height="200>
+    </figure>
+        <div id="Pregunta5">
+            <div id="Pregunta5">  2. ¿El pintor Pablo Picaso, fue el creador de qué movimiento artístico? <br />
+            </div>
+            <div id="respuestas5">
+              <input type="radio" name="pre2" value="El cubismo" /> a. El cubismo<br />
+              <input type="radio" name="pre2" value="El realismo" /> b. El realismo<br />
+              <input type="radio" name="pre2" value="El expresionismo" /> c. El expresionismo<br />
+            </div>
+        </p>
+<figure>
+  <img id='pic6'src="https://i.pinimg.com/originals/86/8b/a1/868ba1a1a44da295399794d9e29f7c40.jpg" alt="Henri Matisse, 1905. Ventana abierta con plantas. "
+    width="200"
+    height="200>
+    </figure>
+          <div id="Pregunta6">
+              <div id="Pregunta6">  3. ¿Quiénes son considerados los padres del arte moderno? <br />
+              </div>
+              <div id="respuestas6">
+                <input type="radio" name="pre3" value="Henry Matisse y Paul Cezanne" /> a. Henry Matisse y Paul Cezanne<br />
+                <input type="radio" name="pre3" value="Paul Valery y Monet" /> b. Paul Valery y Monet<br />
+                <input type="radio" name="pre3" value="Vicent Van Gogh y Caravaggio" /> c. Vicent Van Gogh y Caravaggio<br />
+              </div>
+      </p>
+
+    <button id='Enviar' style="border-radius:10px" onclick= alert(Resultado)>Enviar</button> <br/>
+    <button id='Continuar' style="border-radius:10px">Continuar</button>
+<button id='Inicio' style="border-radius:10px">Reintentar</button>
+<script type="text/javascript" src="app.js">
+
+</script>
+  </body>
+</html>
